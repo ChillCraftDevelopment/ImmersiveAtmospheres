@@ -6,4 +6,11 @@
 #                                                                 #
 # --------------------------------------------------------------- #
 
-execute at @s if block ~ ~2 ~ minecraft:water run particle minecraft:bubble_column_up ~ ~0.2 ~ 0.6 0 0.6 0.1 1 normal
+data merge entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] {Invisible:1b,Marker:1b,NoGravity:1b}
+tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add ia_snow_spawner
+tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add ia_spawner
+kill @s
+
+# Fun particles and sounds
+particle minecraft:scrape ~ ~ ~ 0.5 1 0.5 2 25
+playsound minecraft:entity.experience_orb.pickup ambient @a[distance=..8] ~ ~ ~ 30
