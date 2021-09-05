@@ -42,6 +42,7 @@ Datapack for Minecraft 1.17.1+! Add cool, aesthetic, and immersive atmospheric e
 <p>Bubbles are special, since you can't delete them using fire. Use ink sacs instead.</p> 
 
 <h2 id="disabling">Disabling Particles</h2>
+
 - You can disable individual atmospheric effects PER PLAYER incase you don't like some, or they cause performance issues.
 - Use the `/trigger [effect] set [0 or 1]` command to toggle it. Setting it to 0 disables it, setting it to 1 re-enables it.
 - Toggle Falling Leaves: `ia_toggle_leaves set [0 or 1]`
