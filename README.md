@@ -45,14 +45,14 @@ Datapack for Minecraft 1.17.1+! Add cool, aesthetic, and immersive atmospheric e
 
 - You can disable individual atmospheric effects PER PLAYER incase you don't like some, or they cause performance issues.
 - Use the `/trigger [effect] set [0 or 1]` command to toggle it. Setting it to 0 disables it, setting it to 1 re-enables it.
-- Toggle Falling Leaves: `ia_toggle_leaves set [0 or 1]`
-- Toggle Light Snowfall: `ia_toggle_snow set [0 or 1]`
-- Toggle Blizzard: `ia_toggle_blizz set [0 or 1]`
-- Toggle Ash: `ia_toggle_ash set [0 or 1]`
-- Toggle Sandy Breeze: `ia_toggle_sand set [0 or 1]`
-- Toggle Sandstorm: `ia_toggle_sdstrm set [0 or 1]`
-- Toggle Magical Sorcery: `ia_toggle_magic set [0 or 1]`
-- Toggle Bubbles: `You cannot toggle bubbles at the moment.`
+  - Toggle Falling Leaves: `ia_toggle_leaves set [0 or 1]`
+  - Toggle Light Snowfall: `ia_toggle_snow set [0 or 1]`
+  - Toggle Blizzard: `ia_toggle_blizz set [0 or 1]`
+  - Toggle Ash: `ia_toggle_ash set [0 or 1]`
+  - Toggle Sandy Breeze: `ia_toggle_sand set [0 or 1]`
+  - Toggle Sandstorm: `ia_toggle_sdstrm set [0 or 1]`
+  - Toggle Magical Sorcery: `ia_toggle_magic set [0 or 1]`
+  - Toggle Bubbles: `You cannot toggle bubbles at the moment.`
 
 
 [release]:https://github.com/maxheyn/immersive_atmospheres/releases/latest "Latest Release (external link)"
