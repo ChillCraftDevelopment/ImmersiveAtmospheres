@@ -8,7 +8,18 @@
 
 # Player help and utility
 execute as @a if score @s ia_help matches 1.. run function immersive_atmospheres:utility/help
-execute as @a run function immersive_atmospheres:particles/disable_particles
+scoreboard players set @s ia_help 0
+scoreboard players enable @a ia_help
+scoreboard players set @s ia_enable_all 0
+scoreboard players enable @a ia_enable_all
+scoreboard players set @s ia_disable_all 0
+scoreboard players enable @a ia_disable_all
+
+# Set values on first load
+execute as @a run function immersive_atmospheres:particles/disable_particles_by_name
+execute as @e[type=player,tag=!ia_init] run function immersive_atmospheres:particles/enable_all_particles
+execute as @e[type=player,tag=ia_init] if score @s ia_disable_all matches 1.. run function immersive_atmospheres:particles/disable_all_particles
+execute as @e[type=player,tag=ia_init] if score @s ia_enable_all matches 1.. run function immersive_atmospheres:particles/enable_all_particles
 
 # Ash
 tag @e[type=item,nbt={Item:{id:"minecraft:fire_charge"}},tag=!ia_ash_item,tag=!global.ignore] add ia_ash_item
