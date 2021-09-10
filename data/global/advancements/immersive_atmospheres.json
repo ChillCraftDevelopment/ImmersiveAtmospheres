@@ -1,0 +1,87 @@
+{
+	"display": {
+		"title": "Immersive Atmospheres                     ",
+		"description": [
+			{
+				"text": "Add ",
+				"color": "green"
+			},
+			{
+				"text": "cool, ",
+				"color": "aqua"
+			},
+			{
+				"text": "aesthetic, ",
+				"color": "dark_purple"
+			},
+			{
+				"text": "and ",
+				"color": "green"
+			},
+			{
+				"text": "immersive atmospheric effects ",
+				"color": "gold"
+			},
+			{
+				"text": "to your worlds!\n\nBuild a snowy village that actually has ",
+				"color": "green"
+			},
+			{
+				"text": "snow, ",
+				"color": "white"
+			},
+			{
+				"text": "add ",
+				"color": "green"
+			},
+			{
+				"text": "falling leaves",
+				"color": "dark_green"
+			},
+			{
+				"text": " to your custom forest, ",
+				"color": "green"
+			},
+			{
+				"text": "sandstorms ",
+				"color": "yellow"
+			},
+			{
+				"text": "in deserts, or ",
+				"color": "green"
+			},
+			{
+				"text": "ash",
+				"color": "dark_gray"
+			},
+			{
+				"text": " around volcanoes!\n\nGreat for adding extra flair to your builds in both ",
+				"color": "green"
+			},
+			{
+				"text": "Singleplayer",
+				"color": "gold"
+			},
+			{
+				"text": " and",
+				"color": "green"
+			},
+			{
+				"text": " Multiplayer.",
+				"color": "gold"
+			}
+		],
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1195778884,212553325,-1862081928,-1360317608],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ4MjEwOTJjZTVlNzU1NzQ1MWM3MjNhMDM0MWU5MGI5M2UwNTY0ZTJiMDE0ODFkZTgxZWVhMjcxZjA0YzViNiJ9fX0='}]}}}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:maxheyn",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

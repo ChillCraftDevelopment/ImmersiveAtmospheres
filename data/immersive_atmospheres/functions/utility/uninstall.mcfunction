@@ -7,10 +7,17 @@
 # --------------------------------------------------------------- #
 
 # Removes all scoreboard objectives and disables the datapack
-scoreboard objectives remove ia_initialized
 scoreboard objectives remove ia_help
+scoreboard objectives remove ia_toggle_ash
+scoreboard objectives remove ia_toggle_blizz
+scoreboard objectives remove ia_toggle_leaves
+scoreboard objectives remove ia_toggle_sand
+scoreboard objectives remove ia_toggle_snow
+scoreboard objectives remove ia_toggle_magic
+scoreboard objectives remove ia_toggle_sdstrm
 
-tellraw @p ["",{"text":"[Datapack] Immersive Atmospheres Datapack has been disabled.","color":"red"}]
-tellraw @p ["",{"text":"[Click here to re-enable Immersive Atmospheres.]","color":"aqua","clickEvent":{"action":"run_command","value":"/datapack enable \"file/immersive_atmospheres\""}}]
+kill @e[tag=ia_spawner]
 
-datapack disable "file/immersive_atmospheres"
+tellraw @p [{"text":"[Datapack] ","color":"gold"},{"text":"Immersive Atmospheres has been uninstalled!","color":"red"}]
+
+datapack disable "file/immersive_atmospheres.zip"

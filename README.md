@@ -54,6 +54,7 @@ Datapack for Minecraft 1.17.1+! Add cool, aesthetic, and immersive atmospheric e
   - Toggle Magical Sorcery: `/trigger ia_toggle_magic set [0 or 1]`
   - Toggle Bubbles: `You cannot toggle bubbles at the moment.`
 
+<p>Uninstall the datapack with <code>/function immersive_atmospheres:utility/uninstall</code>.</p>
 
 [release]:https://github.com/maxheyn/immersive_atmospheres/releases/latest "Latest Release (external link)"
 [issues]:https://github.com/maxheyn/immersive_atmospheres/issues "Issues (external link)"
