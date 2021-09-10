@@ -15,6 +15,8 @@ scoreboard objectives remove ia_toggle_sand
 scoreboard objectives remove ia_toggle_snow
 scoreboard objectives remove ia_toggle_magic
 scoreboard objectives remove ia_toggle_sdstrm
+scoreboard objectives remove ia_enable_all
+scoreboard objectives remove ia_disable_all
 
 kill @e[tag=ia_spawner]
 
