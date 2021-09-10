@@ -17,6 +17,7 @@ scoreboard objectives remove ia_toggle_magic
 scoreboard objectives remove ia_toggle_sdstrm
 scoreboard objectives remove ia_enable_all
 scoreboard objectives remove ia_disable_all
+tag @a remove ia_init
 
 kill @e[tag=ia_spawner]
 

@@ -6,7 +6,6 @@
 #                                                                 #
 # --------------------------------------------------------------- #
 
-tag @s add ia_init
 scoreboard players set @s ia_toggle_ash 0
 scoreboard players set @s ia_toggle_blizz 0
 scoreboard players set @s ia_toggle_leaves 0
