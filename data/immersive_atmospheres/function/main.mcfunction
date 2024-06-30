@@ -25,7 +25,7 @@ execute as @a if score @s ia_enable_all matches 1.. run function immersive_atmos
 tag @e[type=item,nbt={Item:{id:"minecraft:fire_charge"}},tag=!ia_ash_item,tag=!global.ignore] add ia_ash_item
 execute as @e[type=item,tag=ia_ash_item,tag=!global.ignore] at @s if entity @e[type=armor_stand,distance=..1,sort=nearest,limit=1,tag=!ia_ash_spawner,tag=!global.ignore] run function immersive_atmospheres:stands/create_ash
 execute as @e[type=player,tag=!ia_ashX] at @s if entity @e[type=armor_stand,tag=ia_ash_spawner,distance=..32] run particle minecraft:ash ~ ~ ~ 5 10 5 100 35 normal @e[distance=..0.01,type=minecraft:player]
-execute as @e[type=player,tag=!ia_ashX] at @s if entity @e[type=armor_stand,tag=ia_ash_spawner,distance=..32] run particle minecraft:dust_color_transition 0 0 0 1 0.55 0.55 0.55 ~ ~ ~ 5 3 5 1 3 normal @e[distance=..0.01,type=minecraft:player]
+execute as @e[type=player,tag=!ia_ashX] at @s if entity @e[type=armor_stand,tag=ia_ash_spawner,distance=..32] run particle minecraft:dust_color_transition{from_color:[0,0,0],scale:1,to_color:[0.55,0.55,0.55]} ~ ~ ~ 5 3 5 1 3 normal @e[distance=..0.01,type=minecraft:player]
 
 # Blizzard
 tag @e[type=item,nbt={Item:{id:"minecraft:snow_block"}},tag=!ia_blizzard_item,tag=!global.ignore] add ia_blizzard_item
@@ -49,7 +49,7 @@ execute as @e[type=player,tag=!ia_leavesX] at @s if entity @e[type=armor_stand,t
 # Sand Breeze
 tag @e[type=item,nbt={Item:{id:"minecraft:sand"}},tag=!ia_sand_item,tag=!global.ignore] add ia_sand_item
 execute as @e[type=item,tag=ia_sand_item,tag=!global.ignore] at @s if entity @e[type=armor_stand,distance=..1,sort=nearest,limit=1,tag=!ia_sand_spawner,tag=!global.ignore] run function immersive_atmospheres:stands/create_light_sand_breeze
-execute as @e[type=player,tag=!ia_sandX] at @s if entity @e[type=armor_stand,tag=ia_sand_spawner,distance=..32] run particle minecraft:dust_color_transition 0.97 0.85 0.63 1 0.98 0.76 0.38 ~ ~ ~ 10 10 10 1 5 normal @e[distance=..0.01,type=minecraft:player]
+execute as @e[type=player,tag=!ia_sandX] at @s if entity @e[type=armor_stand,tag=ia_sand_spawner,distance=..32] run particle dust_color_transition{from_color:[0.97,0.85,0.63],scale:1,to_color:[0.98,0.76,0.38]} ~ ~ ~ 10 10 10 1 5 normal @e[distance=..0.01,type=minecraft:player]
 
 # Light Snowfall
 tag @e[type=item,nbt={Item:{id:"minecraft:snowball"}},tag=!ia_snow_item,tag=!global.ignore] add ia_snow_item
@@ -66,7 +66,7 @@ execute as @e[type=player,tag=!ia_magicX] at @s if entity @e[type=armor_stand,ta
 # Sandstorm
 tag @e[type=item,nbt={Item:{id:"minecraft:red_sand"}},tag=!ia_sandstorm_item,tag=!global.ignore] add ia_sandstorm_item
 execute as @e[type=item,tag=ia_sandstorm_item,tag=!global.ignore] at @s if entity @e[type=armor_stand,distance=..1,sort=nearest,limit=1,tag=!ia_sandstorm_spawner,tag=!global.ignore] run function immersive_atmospheres:stands/create_sandstorm
-execute as @e[type=player,tag=!ia_sandstormX] at @s if entity @e[type=armor_stand,tag=ia_sandstorm_spawner,distance=..32] run particle minecraft:dust_color_transition 0.97 0.85 0.63 1 0.98 0.76 0.38 ~ ~ ~ 10 10 10 1 200 normal @e[distance=..0.01,type=minecraft:player]
+execute as @e[type=player,tag=!ia_sandstormX] at @s if entity @e[type=armor_stand,tag=ia_sandstorm_spawner,distance=..32] run particle minecraft:dust_color_transition{from_color:[0.97,0.85,0.63],scale:1,to_color:[0.98,0.76,0.38]} ~ ~ ~ 10 10 10 1 200 normal @e[distance=..0.01,type=minecraft:player]
 
 # Underwater Bubbles
 tag @e[type=item,nbt={Item:{id:"minecraft:glow_ink_sac"}},tag=!ia_bubble_item,tag=!global.ignore] add ia_bubble_item
