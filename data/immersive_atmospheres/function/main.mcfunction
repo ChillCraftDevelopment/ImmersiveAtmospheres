@@ -61,7 +61,7 @@ execute as @e[type=player,tag=!ia_snowX] at @s if entity @e[type=armor_stand,tag
 tag @e[type=item,nbt={Item:{id:"minecraft:enchanted_book"}},tag=!ia_magic_item,tag=!global.ignore] add ia_magic_item
 execute as @e[type=item,tag=ia_magic_item,tag=!global.ignore] at @s if entity @e[type=armor_stand,distance=..1,sort=nearest,limit=1,tag=!ia_magic_spawner,tag=!global.ignore] run function immersive_atmospheres:stands/create_magical_sorcery
 execute as @e[type=player,tag=!ia_magicX] at @s if entity @e[type=armor_stand,tag=ia_magic_spawner,distance=..32] run particle minecraft:enchant ~ ~ ~ 10 10 10 1 8 normal @e[distance=..0.01,type=minecraft:player]
-execute as @e[type=player,tag=!ia_magicX] at @s if entity @e[type=armor_stand,tag=ia_magic_spawner,distance=..32] run particle minecraft:ambient_entity_effect ~ ~ ~ 10 10 10 1 8 normal @e[distance=..0.01,type=minecraft:player]
+execute as @e[type=player,tag=!ia_magicX] at @s if entity @e[type=armor_stand,tag=ia_magic_spawner,distance=..32] run particle minecraft:entity_effect{color:[1,0,1,1]} ~ ~ ~ 10 10 10 1 8 normal @e[distance=..0.01,type=minecraft:player]
 
 # Sandstorm
 tag @e[type=item,nbt={Item:{id:"minecraft:red_sand"}},tag=!ia_sandstorm_item,tag=!global.ignore] add ia_sandstorm_item
