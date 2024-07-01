@@ -7,7 +7,7 @@
 # --------------------------------------------------------------- #
 
 # Initilize triggers to 1
-scoreboard objectives add ia_initalized dummy 
+scoreboard objectives add ia_initalized dummy
 scoreboard players set @a ia_initalized 1
 
 # Add triggers

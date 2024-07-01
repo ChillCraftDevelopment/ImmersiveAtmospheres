@@ -8,7 +8,7 @@
 
 </div>
 <h1>Immersive Atmospheres</h1>
-Datapack for Minecraft 1.17.1+! Add cool, aesthetic, and immersive atmospheric effects to your worlds! Build a snowy village that actually has snow, add falling leaves to your custom forest, sandstorms in deserts, or ash around volcanoes! Great for adding extra flair to your builds in both Singleplayer and Multiplayer.<br>
+Datapack for Minecraft 1.21! Add cool, aesthetic, and immersive atmospheric effects to your worlds! Build a snowy village that actually has snow, add falling leaves to your custom forest, sandstorms in deserts, or ash around volcanoes! Great for adding extra flair to your builds in both Singleplayer and Multiplayer.<br>
 
 - 8 Unique Atmospheric Effects with their Creation Items
   - Falling Leaves (Any Leaf)
@@ -56,6 +56,6 @@ Datapack for Minecraft 1.17.1+! Add cool, aesthetic, and immersive atmospheric e
 
 <p>Uninstall the datapack with <code>/function immersive_atmospheres:utility/uninstall</code>.</p>
 
-[release]:https://github.com/maxheyn/immersive_atmospheres/releases/latest "Latest Release (external link)"
-[issues]:https://github.com/maxheyn/immersive_atmospheres/issues "Issues (external link)"
+[release]:https://github.com/ChillCraftDevelopment/ImmersiveAtmospheres/releases/latest "Latest Release (external link)"
+[issues]:https://github.com/ChillCraftDevelopment/ImmersiveAtmospheres/issues "Issues (external link)"
 [planetminecraft]: https://www.planetminecraft.com/data-pack/immersive-atmospheres/ "Planet Minecraft Webpage (external link)"
